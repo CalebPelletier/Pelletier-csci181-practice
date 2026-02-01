@@ -1,0 +1,130 @@
+@import url(https://fonts.google.com/specimen/Google+Sans);
+
+.banner-card {
+  position: relative;
+}
+
+.banner-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner-text {
+  position: absolute;
+  top: 35%;
+  color: coral;
+  left: 43%;
+}
+
+.button-placement {
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  color: coral;
+}
+
+html {
+  font-size: 25px;
+  box-sizing: border-box;
+  background-color: rgb(243, 247, 227);
+}
+
+*,
+*::before *::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  color: coral;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(0, 0, 0);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-wrap: balance;
+}
+
+#resume {
+  font-size: 2.3 rem;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-left: 43%;
+}
+
+#name-header {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 0;
+  margin-left: 0%;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 1000;
+  line-height: 3.5rem;
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: .5 rem;
+  margin-bottom: 0.75rem;
+}
+
+.box-one {
+  background-color: #f5f5dc;
+  padding: 20px;
+  border: 0 solid #c1d7ff;
+}
+
+h2 {
+          height: 100%;
+        }
+
+section{
+  display:inline-block;
+  width: 70%;
+  padding: 5%;
+  margin-left: 14%;
+  margin-top: 5%;
+  background-color: #c1d7ff;
+  box-sizing: border-box;
+  border-radius: 25%;
+}
+
+a:link {
+  color: #c1d7ff; 
+}
+
