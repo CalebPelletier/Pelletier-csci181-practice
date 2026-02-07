@@ -19,14 +19,14 @@
 .button-placement {
   position: absolute;
   left: 45%;
-  top: 50%;
+  top: 55%;
   color: coral;
 }
 
 html {
   font-size: 25px;
   box-sizing: border-box;
-  background-color: rgb(243, 247, 227);
+  background-color: #c1d7ff;
 }
 
 *,
@@ -82,11 +82,25 @@ h6 {
   margin-left: 43%;
 }
 
+#contact-form {
+  font-size: 2.3 rem;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-left: 44.2%;
+}
+
 #name-header {
   font-size: 20px;
   font-weight: 500;
   line-height: 0;
   margin-left: 0%;
+}
+
+#enter-contact {
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 3rem;
+  margin-left: 40%;
 }
 
 h2 {
@@ -119,6 +133,7 @@ section{
   padding: 5%;
   margin-left: 14%;
   margin-top: 5%;
+  margin-bottom: 5%;
   background-color: #c1d7ff;
   box-sizing: border-box;
   border-radius: 25%;
@@ -128,3 +143,34 @@ a:link {
   color: #c1d7ff; 
 }
 
+#email-input {
+  margin-bottom: 5% ; 
+  width: 20rem;
+}
+
+#message-input {
+  width: 42.6rem;
+  height: 10rem;
+}
+
+#first-name-input::placeholder {
+  color: coral;
+}
+
+#last-name-input::placeholder {
+  color: coral;
+}
+
+#email-input::placeholder {
+  color: #ff7f50;
+}
+
+#message-input::placeholder {
+  color: coral;
+}
+
+#table-descriptions {
+  font-size: 0.7rem;
+  width: 25rem;
+  height: 10rem;
+}

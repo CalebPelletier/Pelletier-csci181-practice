@@ -5,17 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Resume - Caleb Pelletiers Portfolio</title>
+    <style>
+        body {
+            background-image: url("coral_poka.png");
+            background-repeat: no-repeat;
+            background-size: 1920px;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
   </head>
   <body>
     <header>
       <img
         src="resume-7.png"
-        width="48px"
-        height="48px"/>
+        width="60px"
+        height="60px"/>
       <nav>
+        <h2 id="name-header">Caleb Pelletier</h2>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
         </ul>
       </nav>
     </header>
@@ -62,6 +72,42 @@
           <li>Availability</li>
         </ul>
       </section>
+      
+      <section>
+          <table>
+            <caption style="color: black">Overview of Courses I've Taken</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Course Name</th>
+                  <th scope="col">Course Description</th>
+                  <th scope="col">Credit Weight</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Introduction to computer science CSCI 150</th>
+                  <td id="table-descriptions"style="color:black;"><code>This course covered basic programming concepts such as variables, data types, iteration, flow of control, input/output, functions, and objects. The course also covered programming ideas such as libraries, files, modularity, where to turn to for help, and debugging. Students learnt about the role computation can play in solving problems by writing programs to address practical problems.</code></td>
+                  <td>3 Credits</td>
+                </tr>
+                <tr>
+                  <th scope="row">Interdisciplinary computer science CSCI 151</th>
+                  <td id="table-descriptions"style="color:black;"><code>This course introduced students to fundamental computer science concepts including functions, libraries and APIs, recursion, data types, optimization, searching and sorting, all while using a high level structured programming language.</code></td>
+                  <td>3 Credits</td>
+                </tr>
+                <tr>
+                  <th scope="row">Web design and programming</th>
+                  <td id="table-descriptions"style="color:black;"><code>Students learned how to critically analyze the usability of web sites and create their own by understanding and applying universal principles of design. Programming and other key concepts covered include HTML, CSS, JavaScript, and Web Graphics. Students completed many different types of Web projects throughout the semester, culminating in an online portfolio used to showcase work completed in this class and others.</code></td>
+                  <td>3 Credits</td>
+                </tr>
+                <tr>
+                  <th scope="row">Intro to astronomy</th>
+                  <td id="table-descriptions"style="color:black;"><code>An introduction to observational, historical, and planetary astronomy. Students learned key concepts of foundational laws within physics and astronomy, applying them to group based labs to gain a deeper understanding of the cosmos.</code></td>
+                  <td>3 Credits</td>
+                </tr>
+              </tbody>
+            </table>
+        </section>
+    
     </main>
   </body>
 </html>
