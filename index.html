@@ -8,17 +8,20 @@
     </head>
 
     <body>
-      <header>
-        <img src="resume-7.png" width="60px" height="60px" />
+      <header id="front-header">
         <nav>
-            <h2 id="name-header">Caleb Pelletier</h2>
-            <ul>
-                <li><a href="index.html">Home</a></li>
+          <h1 id="home-header">Home</h1>
+          <img src="resume-7.png" width="60px" height="60px" />
+          <h2 id="name-header">Caleb Pelletier</h2>
+        </nav>
+        
+        <nav>
+            <ul id="main-list">
                 <li><a href="resume.html">Resume</a></li>
                 <li><a href="contact.html">Contact Me</a></li>
             </ul>
-          </nav>
-    </header>
+        </nav>
+      </header>
       <main>
         <div class="banner-card">
           <img src="image_head.jpg" height="650px" width="1920px">
@@ -29,10 +32,36 @@
           
         <a href="resume.html">
           <div class="button-placement">
-            <button style="background-color: rgb(253, 255, 237); border-radius:20px; color: coral;">View My Resume</button>
+            <button style="background-color: rgb(255, 255, 255); border-radius: 1000px; color: coral;">View My Resume</button>
           </div>
-          </a>
-          <h1>Home</h1>
+        </a>
+          
+        <h1>Scroll To View My Projects ↓</h1>
+        
+        <div class="container">
+          <div class="card">
+              <img class="card-img"; src="planet.jpg">
+              <h4 class="heading" style="color: rgb(0, 0, 0);">Locating Extraterrestrial Planets</h4>
+              <p class="description" style="font-size: 20px;">During my attendence at the Univerity of Montana I had the pleasure of working with my peers on a research project studying methods of locating and observing extraterrestrial planets. Click the button to learn more.</p>
+              <button class="btn" style="background: #526cff;">View My Astronomy Project</button>        
+          </div>
+  
+          <div class="card">
+              <img class="card-img"; src="videogame.jpg">
+              <h4 class="heading"; style="color: black;">Game development using Python</h4>
+              <p class="description" style="font-size: 20px;">After learning to code in python I imediatly gained an interest in game development. Click the button to view some of my favorite games I've made.</p>
+              <button class="btn" style="background: #12b16fc2;">View My GameDev Projects</button>        
+          </div>
+  
+          <div class="card">
+              <img class="card-img"; src="basketball.webp">
+              <h4 class="heading" style="color: rgb(0, 0, 0);">Software Developed to Dive Deep Into NBA Analytics</h4>
+              <p class="description" style="font-size: 20px;">NBA analytics and how they're aquired has always been an interesting subject to me, and since learning python I've researched and produced some of my own. Click the button to view some analytics from the 2024-25 NBA season.</p>
+              <button class="btn" style="background: #582afd;">View My Analytics Project</button>         
+          </div>
+        </div>
+      
+      
       </main>
     </body>
 </html>

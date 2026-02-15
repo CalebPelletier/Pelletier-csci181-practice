@@ -19,14 +19,22 @@
 .button-placement {
   position: absolute;
   left: 45%;
-  top: 55%;
+  top: 45%;
   color: coral;
+  display:block;
+  border-radius:20px;
+}
+
+header {
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
 }
 
 html {
   font-size: 25px;
   box-sizing: border-box;
-  background-color: #c1d7ff;
+  background-color: #e7fbff;
 }
 
 *,
@@ -96,6 +104,10 @@ h6 {
   margin-left: 0%;
 }
 
+#home-header{
+  text-align: center;
+}
+
 #enter-contact {
   font-size: 19px;
   font-weight: 500;
@@ -118,14 +130,14 @@ h3 {
 }
 
 .box-one {
-  background-color: #f5f5dc;
+  background-color: #ffffff;
   padding: 20px;
   border: 0 solid #c1d7ff;
 }
 
 h2 {
-          height: 100%;
-        }
+  height: 100%;
+}
 
 section{
   display:inline-block;
@@ -173,4 +185,60 @@ a:link {
   font-size: 0.7rem;
   width: 25rem;
   height: 10rem;
+}
+
+#front-header {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.card-img {
+  width: 357px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  max-width: 1150px;
+  margin-left: 15%;
+  column-gap: 50px;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #bbe0e9;
+  border-radius: 20px;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.15);
+  padding: 20px 30px;
+}
+
+.heading {
+  margin:10px 0 15px;
+
+}
+
+.description {
+  margin-bottom: 20px;
+  color: rgb(255, 140, 0);
+}
+
+.btn {
+  border: none;
+  border-radius: 1000px;
+  color: white;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #000000;
+  color: rgb(0, 0, 0);
+}
+
+button {
+  cursor: pointer;
 }

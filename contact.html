@@ -16,15 +16,22 @@
     </style>
 </head>
 <body>
-    <header>
-        <img src="resume-7.png" width="60px" height="60px" />
-        <h2 id="name-header">Caleb Pelletier</h2>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="resume.html">Resume</a></li>
-        </ul>
-        <h3 id="contact-form">Contact Form</h3>
-        <section>
+      <header id="front-header">
+        <nav>
+          <img src="resume-7.png" width="60px" height="60px" />
+          <h2 id="name-header">Caleb Pelletier</h2>
+        </nav>
+        
+        <nav>
+            <ul id="main-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+      </header>
+    
+    <h3 id="contact-form">Contact Form</h3>
+    <section>
             <h2 id="enter-contact">Enter Contact Information</h2>
             
             <form>
@@ -35,9 +42,8 @@
                 <div>
                     <textarea id="message-input" rows="4" cols="50" placeholder="Enter Your Message..."></textarea>
                 </div>
-                <input type="reset" value="Submit">
+                <input type="reset" value="Submit" style="border-radius: 1000px;">
             </form>
         </section>
-    </header>
 </body>
 </html>
