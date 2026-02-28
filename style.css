@@ -257,10 +257,11 @@ button {
 }
 
 .page-wrapper {
-  background-color: #c1d7ff;
+  background-color: #f3c1ff;
 }
 
 .bento-grid {
+  background-color: #f3c1ff;
   margin-top: -5%;
   display: grid;
   grid-template-columns: 285px 285px 285px 285px;
