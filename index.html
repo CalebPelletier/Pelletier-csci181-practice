@@ -3,27 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width-device-width", "initial-scale-1.0" />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         <link rel="stylesheet" href="style.css" />
         <title>Home - Caleb Pelletiers Portfolio</title>
     </head>
 
-    <body>
+    <body class="min-h-screen flex flex-col">
       <header id="front-header">
         <nav>
           <h1 id="home-header">Home</h1>
           <img src="resume-7.png" width="60px" height="60px" />
           <h2 id="name-header">Caleb Pelletier</h2>
         </nav>
-        
-        <nav>
-            <ul id="main-list">
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
-                <li><a href="bento-grid.html">Bento Grid</a></li>
-            </ul>
-        </nav>
+            <nav><a href="resume.html">Resume</a></nav>
+            <nav><a href="contact.html">Contact Me</a></nav>
+            <nav><a href="bento-grid.html">Bento Grid</a></nav>
+
       </header>
-      <main>
+      <main class="flex-1">
         <div class="banner-card">
           <img src="image_head.jpg" height="650px" width="1920px">
           <div class="banner-text">
@@ -37,9 +34,9 @@
           </div>
         </a>
           
-        <h1>Scroll To View My Projects ↓</h1>
+        <h1 class="mt-2.5">Scroll To View My Projects ↓</h1>
         
-        <div class="container">
+        <div class="grid grid-cols-3 gap-20 mt-10 ml-20 mr-20 mb-20">
           <div class="card">
               <img class="card-img"; src="planet.jpg">
               <h4 class="heading" style="color: rgb(0, 0, 0);">Locating Extraterrestrial Planets</h4>
@@ -62,7 +59,64 @@
           </div>
         </div>
       
-      
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-10">
+          <div>
+            <ul class="rounded-lg shadow-2xl outline-1 outline-gray-200">
+              <li>
+                <img src="Headshot-photos\quotation-mark.png" class="w-4 h-5 ml-4 absolute rotate-180 opacity-7">
+                <figure>
+                  <blockquote>
+                    <p class="text-gray-400 mb-5 ml-10 text-xs pt-2"><i>CSCI 181 completely changed how I think about the internet. I finally understand the 'magic' behind the websites I use every day.</i></p>
+                  </blockquote>
+
+                  <figcaption>
+                      <img src="Headshot-photos\headshot1.jpg" class="ml-4 w-10 h-10 rounded-full object-cover absolute" alt="" />
+                      <p class="text-gray-700 ml-15">Marissa Patrisha</p>
+                      <p class="text-xs ml-15 pb-8 text-gray-400 leading-3">Freshman, Computer Engineering</p>
+                  </figcaption>
+                </figure>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul class="rounded-lg shadow-2xl outline-1 outline-gray-200">
+              <li>
+                <img src="Headshot-photos\quotation-mark.png" class="w-4 h-5 ml-4 absolute rotate-180 opacity-7">
+                <figure>
+                  <blockquote>
+                    <p class="text-gray-400 mb-5 ml-10 text-xs pt-2"><i>Now I have the confidence to build my own website. The instructor was really supportive and the material was always relevant.</i></p>
+                  </blockquote>
+
+                  <figcaption>
+                      <img src="Headshot-photos\headshot3.jpg" class="ml-4 w-10 h-10 rounded-full object-cover absolute" alt="" />
+                      <p class="text-gray-700 ml-15">Hank Stank</p>
+                      <p class="text-xs ml-15 pb-8 text-gray-400 leading-3">Freshman, Software Engineering</p>
+                  </figcaption>
+                </figure>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul class="rounded-lg shadow-2xl outline-1 outline-gray-200">
+              <li>
+                <img src="Headshot-photos\quotation-mark.png" class="w-4 h-5 ml-4 absolute rotate-180 opacity-7">
+                <figure>
+                  <blockquote>
+                    <p class="text-gray-400 mb-5 ml-10 text-xs pt-2"><i>I learned so much about the principles of design and usability. I didn't know coding could be so fun and creative! I can't wait to deploy my first webpage!</i></p>
+                  </blockquote>
+
+                  <figcaption>
+                      <img src="Headshot-photos\headshot2.jpg" class="ml-4 w-10 h-10 rounded-full object-cover absolute" alt="" />
+                      <p class="text-gray-700 ml-15">Bella Favela</p>
+                      <p class="text-xs ml-15 text-gray-400 leading-3 pb-8">Junior, Cyber Security</p>
+                  </figcaption>
+                </figure>
+              </li>
+            </ul>
+          </div>
+
       </main>
     </body>
 </html>
