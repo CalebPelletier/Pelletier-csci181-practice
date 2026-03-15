@@ -248,13 +248,13 @@
   .btn {
     border: none;
     border-radius: 1000px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
   }
 
   .btn:hover {
     background-color: #000000;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
 
   .grid-item {
