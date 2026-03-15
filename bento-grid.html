@@ -1,34 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css" />
+      <title>Document</title>
+  </head>
+  <body>
+    <a href="#main-content-bento" class="skip-link">Skip to main content</a>
+      <header id="front-header">
+        <nav>
+          <h1 id="home-header">Home</h1>
+          <img src="resume-7.png" width="60px" height="60px" />
+          <h2 id="name-header">Caleb Pelletier</h2>
+        </nav>
+        <nav aria-label="Primary navigation">
+          <ul class="header-row">
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="resume.html">My Resume</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li><a href="bento-grid.html" aria-current="page">Bento Grid</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <style>
-        
-
-
-    </style>
-</head>
-<body>
-    <header id="front-header">
-      <nav>
-        <img src="resume-7.png" width="60px" height="60px" />
-        <h2 id="name-header">Caleb Pelletier</h2>
-      </nav>
-
-      <nav>
-        <ul id="main-list">
-          <li><a href="index.html" role="button">Home</a></li>
-          <li><a href="contact.html" role="button">Contact Me</a></li>
-          <li><a href="resume.html" role="button">Resume</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main class="page-wrapper">
+    <main class="page-wrapper" id="main-content-bento">
         <section class="bento-grid">
             <div class="grid-item" style="grid-area: africa"><img class="bento-img" src="bento-grid-photos\africa_sunset.webp" alt="Image of a sunset in africa"></div>
             <div class="grid-item" style="grid-area: australia"><img class="bento-img" src="bento-grid-photos\australia_sunset.jpg" alt="Image of a sunset in australia"></div>

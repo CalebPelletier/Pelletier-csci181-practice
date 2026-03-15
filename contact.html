@@ -16,23 +16,26 @@
     </style>
 </head>
 <body>
+    <a href="#main-content-contact" class="skip-link">Skip to main content</a>
       <header id="front-header">
         <nav>
+          <h1 id="home-header">Home</h1>
           <img src="resume-7.png" width="60px" height="60px" />
           <h2 id="name-header">Caleb Pelletier</h2>
         </nav>
-        
-        <nav>
-            <ul id="main-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="bento-grid.html">Bento Grid</a></li>
-            </ul>
+        <nav aria-label="Primary navigation">
+          <ul class="header-row">
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="resume.html">My Resume</a></li>
+            <li><a href="contact.html" aria-current="page">Contact Me</a></li>
+            <li><a href="bento-grid.html">Bento Grid</a></li>
+          </ul>
         </nav>
       </header>
     
     <h3 id="contact-form">Contact Form</h3>
-    <section>
+    <main id="main-content-contact">
+        <section>
             <h2 id="enter-contact">Enter Contact Information</h2>
             
             <form>
@@ -46,5 +49,6 @@
                 <input type="reset" value="Submit" style="border-radius: 1000px;">
             </form>
         </section>
+    </main>
 </body>
 </html>

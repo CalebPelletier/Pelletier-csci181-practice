@@ -1,4 +1,16 @@
 @import url(https://fonts.google.com/specimen/Google+Sans);
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    animation-delay: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 @layer base {
   .banner-card {
     position: relative;
@@ -41,6 +53,7 @@
     font-size: 25px;
     box-sizing: border-box;
     background-color: #ffffff;
+    scroll-behavior: smooth;
   }
 
   *,
@@ -123,6 +136,7 @@
   a:link {
     color: #c1d7ff; 
   }
+  
 }
   button {
     cursor: pointer;
@@ -280,3 +294,32 @@
     display: block;
     border-radius: 25px;
   }
+
+ .skip-link {
+  position: absolute;
+  z-index: 5;
+  margin-left: -999rem;
+  padding: 0.5rem 1.5rem;
+  background: #a9d9f8; 
+  border-radius: 0 0 0.25rem 0.25rem;
+  }
+
+ .skip-link:focus {
+  margin-left: 0.5rem;
+  top:0;
+  left: 0;
+  }
+
+  .header-row {
+    display: flex;
+    gap: 50%;
+    list-style-type: none;
+    padding: 0%;
+    text-align: center;
+    line-height: 1;
+  }
+
+  nav a[aria-current="page"] {
+  color: #58b3c4;
+}
+

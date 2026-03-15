@@ -9,18 +9,24 @@
     </head>
 
     <body class="min-h-screen flex flex-col">
+      <a href="#main-content-index" class="skip-link">Skip to main content</a>
       <header id="front-header">
         <nav>
           <h1 id="home-header">Home</h1>
           <img src="resume-7.png" width="60px" height="60px" />
           <h2 id="name-header">Caleb Pelletier</h2>
         </nav>
-            <nav><a href="resume.html">Resume</a></nav>
-            <nav><a href="contact.html">Contact Me</a></nav>
-            <nav><a href="bento-grid.html">Bento Grid</a></nav>
-
+        <nav aria-label="Primary navigation">
+          <ul class="header-row">
+            <li><a href="index.html" aria-current="page">Home Page</a></li>
+            <li><a href="resume.html">My Resume</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li><a href="bento-grid.html">Bento Grid</a></li>
+          </ul>
+        </nav>
       </header>
-      <main class="flex-1">
+      
+      <main class="flex-1" id="main-content-index">
         <div class="banner-card">
           <img src="image_head.jpg" height="650px" width="1920px">
           <div class="banner-text">
