@@ -24,7 +24,7 @@
   .banner-text {
     position: absolute;
     top: 35%;
-    color: coral;
+    color: #FFD08A;
     left: 41%;
   }
 
@@ -32,7 +32,7 @@
     position: absolute;
     left: 45%;
     top: 45%;
-    color: coral;
+    color: #FFD08A;
     display:block;
     border-radius:20px;
   }
@@ -67,7 +67,7 @@
 
   body {
     min-height: 100vh;
-    color: coral;
+    color: #FFD08A;
     font-size: 1rem;
     line-height: 1.5rem;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -128,13 +128,13 @@
     margin-left: 14%;
     margin-top: 5%;
     margin-bottom: 5%;
-    background-color: #c1d7ff;
+    background-color: #36383b;
     box-sizing: border-box;
     border-radius: 25%;
   }
 
   a:link {
-    color: coral; 
+    color: #FFD08A; 
   }
   
 }
@@ -191,19 +191,19 @@
   }
 
   #first-name-input::placeholder {
-    color: coral;
+    color: #FFD08A;
   }
 
   #last-name-input::placeholder {
-    color: coral;
+    color: #FFD08A;
   }
 
   #email-input::placeholder {
-    color: #ff7f50;
+    color: #FFD08A;
   }
 
   #message-input::placeholder {
-    color: coral;
+    color: #FFD08A;
   }
 
   #table-descriptions {
@@ -267,7 +267,7 @@
     place-content: center;
     text-align: center;
     border-radius: 25px;
-    background-color: #e49f38;
+    background-color: #FFD08A;
   }
 
   .page-wrapper {
