@@ -5,20 +5,22 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="style.css" />
       <title>Document</title>
+      <script src="./scripts/theme.js" defer></script>
   </head>
   <body>
     <a href="#main-content-bento" class="skip-link">Skip to main content</a>
+    <button type="button" id="theme-toggle">Toggle Dark Mode</button>
       <header id="front-header">
         <nav aria-label="Logo navigation">
-          <h1 id="home-header">Home</h1>
+          <h1 id="home-header" style="color: var(--text)">Home</h1>
           <img src="resume-7.png" alt="Resume logo" width="60px" height="60px" />
-          <h2 id="name-header">Caleb Pelletier</h2>
+          <h2 id="name-header" style="color: var(--text)">Caleb Pelletier</h2>
         </nav>
         <nav aria-label="Primary navigation">
           <ul class="header-row">
-            <li><a href="index.html" style="color: black">Home Page</a></li>
-            <li><a href="resume.html" style="color: black">My Resume</a></li>
-            <li><a href="contact.html" style="color: black">Contact Me</a></li>
+            <li><a href="index.html" style="color: var(--text)">Home Page</a></li>
+            <li><a href="resume.html" style="color: var(--text)">My Resume</a></li>
+            <li><a href="contact.html" style="color: var(--text)">Contact Me</a></li>
             <li><a href="bento-grid.html" aria-current="page">Bento Grid</a></li>
           </ul>
         </nav>

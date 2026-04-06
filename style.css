@@ -11,6 +11,27 @@
   }
 }
 
+:root {
+    --bg: white;
+    --text: black;
+    --orange: white;
+    --bottom_cards: rgb(112, 112, 112);
+    --resume_cards: rgb(112, 112, 112);
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+}
+
+body.dark {
+    --bg: #2e1515;
+    --text: rgb(170, 170, 170);
+    --orange: rgb(255, 255, 255);
+    --bottom_cards: rgb(104, 104, 104);
+    --resume_cards: #3f2323;
+}
+
 @layer base {
   .banner-card {
     position: relative;
@@ -24,7 +45,7 @@
   .banner-text {
     position: absolute;
     top: 35%;
-    color: #FFD08A;
+    color: var(--orange);
     left: 41%;
   }
 
@@ -32,7 +53,7 @@
     position: absolute;
     left: 45%;
     top: 45%;
-    color: #FFD08A;
+    color: var(--orange);
     display:block;
     border-radius:20px;
   }
@@ -40,7 +61,7 @@
 
 @layer base{
   header {
-    background-color: #ffffff;
+    background-color: var(--bg);
     position: fixed;
     top: 0;
   }
@@ -52,7 +73,7 @@
   html {
     font-size: 25px;
     box-sizing: border-box;
-    background-color: #ffffff;
+    background-color: var(--bg);
     scroll-behavior: smooth;
   }
 
@@ -67,7 +88,7 @@
 
   body {
     min-height: 100vh;
-    color: #FFD08A;
+    color: var(--orange);
     font-size: 1rem;
     line-height: 1.5rem;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -97,7 +118,7 @@
   h4,
   h5,
   h6 {
-    color: rgb(0, 0, 0);
+    color: var(--bg);;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-wrap: balance;
   }
@@ -128,13 +149,13 @@
     margin-left: 14%;
     margin-top: 5%;
     margin-bottom: 5%;
-    background-color: #36383b;
+    background-color: var(--resume_cards);
     box-sizing: border-box;
     border-radius: 25%;
   }
 
   a:link {
-    color: #FFD08A; 
+    color: var(--orange); 
   }
   
 }
@@ -175,7 +196,7 @@
   }
 
   .box-one {
-    background-color: #ffffff;
+    background-color: var(--bg);
     padding: 20px;
     border: 0 solid #c1d7ff;
   }
@@ -191,19 +212,19 @@
   }
 
   #first-name-input::placeholder {
-    color: #FFD08A;
+    color: rgb(158, 158, 158);
   }
 
   #last-name-input::placeholder {
-    color: #FFD08A;
+    color: rgb(158, 158, 158);
   }
 
   #email-input::placeholder {
-    color: #FFD08A;
+    color: rgb(158, 158, 158);
   }
 
   #message-input::placeholder {
-    color: #FFD08A;
+    color: rgb(158, 158, 158);
   }
 
   #table-descriptions {
@@ -230,7 +251,7 @@
   }
 
   .card {
-    background-color: #3f4041;
+    background-color: var(--bottom_cards);
     border-radius: 20px;
     box-shadow: 0 3px 3px rgba(0,0,0,0.15);
     padding: 20px 30px;
@@ -242,19 +263,19 @@
 
   .description {
     margin-bottom: 20px;
-    color: #FFD08A;
+    color: var(--orange);
   }
 
   .btn {
     border: none;
     border-radius: 1000px;
-    color: rgb(0, 0, 0);
+    color: var(--bg);;
     font-size: 20px;
   }
 
   .btn:hover {
-    background-color: #000000;
-    color: rgb(255, 255, 255);
+    background-color: var(--bg);;
+    color: var(--bg);
   }
 
   .grid-item {
@@ -263,11 +284,11 @@
   }
 
   .grid-item-empty {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);;
     place-content: center;
     text-align: center;
     border-radius: 25px;
-    background-color: #FFD08A;
+    background-color: rgb(250, 199, 103);
   }
 
   .page-wrapper {
@@ -323,4 +344,12 @@
   color: #58b3c4;
   text-decoration: underline;
 }
+
+  #theme-toggle {
+    position: fixed;
+    z-index: 10;
+    color: var(--orange);
+    background-color: #464646;
+    border-radius: 0 0 0.25rem 0.25rem;
+  }
 

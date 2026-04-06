@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Resume - Caleb Pelletiers Portfolio</title>
+    <script src="./scripts/theme.js" defer></script>
     <style>
       body {
         background-image: url("coral_poka.png");
@@ -17,18 +18,19 @@
   </head>
   <body>
     <a href="#main-content-resume" class="skip-link">Skip to main content</a>
+    <button type="button" id="theme-toggle">Toggle Dark Mode</button>
       <header id="front-header">
         <nav aria-label="Logo navigation">
-          <h1 id="home-header">Home</h1>
+          <h1 id="home-header" style="color: var(--text)">Home</h1>
           <img src="resume-7.png" alt="Resume logo" width="60px" height="60px" />
-          <h2 id="name-header">Caleb Pelletier</h2>
+          <h2 id="name-header" style="color: var(--text)">Caleb Pelletier</h2>
         </nav>
         <nav aria-label="Primary navigation">
           <ul class="header-row">
-            <li><a href="index.html" style="color: black">Home Page</a></li>
+            <li><a href="index.html" style="color: var(--text)">Home Page</a></li>
             <li><a href="resume.html" aria-current="page">My Resume</a></li>
-            <li><a href="contact.html" style="color: black">Contact Me</a></li>
-            <li><a href="bento-grid.html" style="color: black">Bento Grid</a></li>
+            <li><a href="contact.html" style="color: var(--text)">Contact Me</a></li>
+            <li><a href="bento-grid.html" style="color: var(--text)">Bento Grid</a></li>
           </ul>
         </nav>
       </header>
@@ -37,9 +39,9 @@
       <h1 id="resume">Resume</h1>
 
       <section>
-        <h2 style="color: white">Education</h2>
+        <h2 style="color: var(--orange)">Education</h2>
         <h3>
-          <strong style="color: white">
+          <strong style="color: var(--orange)">
             Currently studying for a bachelor's degree in Computer Science with
             a focus in Software Engineering at the University of Montana in
             Missoula
@@ -50,8 +52,8 @@
       </section>
 
       <section>
-        <h2 style="color: white">Professional Experience</h2>
-        <h3 style="color: white"><strong style="color: white">Produce Clerk</strong> at Albertsons, Missoula, MT</h3>
+        <h2 style="color: var(--orange)">Professional Experience</h2>
+        <h3 style="color: var(--orange)"><strong style="color: var(--orange)">Produce Clerk</strong> at Albertsons, Missoula, MT</h3>
         <p>August 2022 - Present</p>
         <ul>
           <li>
@@ -66,7 +68,7 @@
       </section>
 
       <section>
-        <h2 style="color: white">Skills</h2>
+        <h2 style="color: var(--orange)">Skills</h2>
         <ul>
           <li>Fresh Fruit Preperation</li>
           <li>Customer Service</li>
@@ -78,7 +80,7 @@
 
       <section>
         <table>
-          <caption style="color: rgb(255, 255, 255)">
+          <caption style="color: var(--orange)">
             Overview of Courses I've Taken
           </caption>
           <thead>
@@ -91,7 +93,7 @@
           <tbody>
             <tr>
               <th scope="row">Introduction to computer science CSCI 150</th>
-              <td id="table-descriptions" style="color: rgb(255, 255, 255)">
+              <td id="table-descriptions" style="color: var(--orange)">
                 <code
                   >This course covered basic programming concepts such as
                   variables, data types, iteration, flow of control,
@@ -106,7 +108,7 @@
             </tr>
             <tr>
               <th scope="row">Interdisciplinary computer science CSCI 151</th>
-              <td id="table-descriptions" style="color: rgb(255, 255, 255)">
+              <td id="table-descriptions" style="color: var(--orange)">
                 <code
                   >This course introduced students to fundamental computer
                   science concepts including functions, libraries and APIs,
@@ -119,7 +121,7 @@
             </tr>
             <tr>
               <th scope="row">Web design and programming</th>
-              <td id="table-descriptions" style="color: rgb(255, 255, 255)">
+              <td id="table-descriptions" style="color: var(--orange)">
                 <code
                   >Students learned how to critically analyze the usability of
                   web sites and create their own by understanding and applying
@@ -135,7 +137,7 @@
             </tr>
             <tr>
               <th scope="row">Intro to astronomy</th>
-              <td id="table-descriptions" style="color: rgb(255, 255, 255)">
+              <td id="table-descriptions" style="color: var(--orange)">
                 <code
                   >An introduction to observational, historical, and planetary
                   astronomy. Students learned key concepts of foundational laws
