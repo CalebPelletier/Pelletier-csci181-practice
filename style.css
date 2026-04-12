@@ -17,6 +17,7 @@
     --orange: white;
     --bottom_cards: rgb(112, 112, 112);
     --resume_cards: rgb(112, 112, 112);
+    --header: #d6d6d6;
 }
 
 body {
@@ -25,11 +26,12 @@ body {
 }
 
 body.dark {
-    --bg: #2e1515;
+    --bg: #582828;
     --text: rgb(170, 170, 170);
     --orange: rgb(255, 255, 255);
     --bottom_cards: rgb(104, 104, 104);
-    --resume_cards: #3f2323;
+    --resume_cards: #582828;
+    --header: #381919;
 }
 
 @layer base {
@@ -61,7 +63,7 @@ body.dark {
 
 @layer base{
   header {
-    background-color: var(--bg);
+    background-color: var(--header);
     position: fixed;
     top: 0;
   }
@@ -333,7 +335,7 @@ body.dark {
 
   .header-row {
     display: flex;
-    gap: 50%;
+    gap: 25%;
     list-style-type: none;
     padding: 0%;
     text-align: center;
@@ -353,3 +355,12 @@ body.dark {
     border-radius: 0 0 0.25rem 0.25rem;
   }
 
+  .temp {
+    line-height: 1;
+    font-size: 7rem;
+  }
+
+  .forecast {
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
